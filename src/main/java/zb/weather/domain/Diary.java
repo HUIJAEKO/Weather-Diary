@@ -9,7 +9,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 @Entity
 @Getter
@@ -25,5 +25,5 @@ public class Diary {
     private String icon;
     private double temperature;
     private String text;
-    private LocalDateTime date;
+    private LocalDate date;
 }
